@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+
+}
+
+h1{
+    color: cornflowerblue;
+    background-color: darkgreen;
+}
+
+#show_sketches{
+    float: right;
+    height: 35px;
+    width: 120px;
+}
+
+#clear_canvas{
+    background-color: greenyellow;
+    color: black;
+}
+
+p{
+    font-size: large;
+}
+
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    margin-top: 50px;
+
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
